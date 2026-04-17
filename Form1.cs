@@ -16,9 +16,6 @@ namespace EstoqueSimples
             // Inicializa os componentes visuais criados no Designer (botões, caixas de texto, etc)
             InitializeComponent();
 
-            // IMPORTANTE: Impede o Grid de criar colunas automaticamente ao receber os dados.
-            // Isso evita que o nome "Quantidade" apareça duplicado na sua tela.
-            dgvEstoque.AutoGenerateColumns = false;
         }
 
         private void btnAdicionar_Click(object sender, EventArgs e)
